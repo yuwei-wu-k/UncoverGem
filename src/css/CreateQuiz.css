@@ -1,0 +1,106 @@
+.update-wrapper {
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #fff;
+  background-image: url('../../public/sun-tornado.svg'); /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center center;
+}
+
+.update-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #FFFDD0;
+  text-align: center;
+}
+textarea{
+  width: 100%;
+  color: #333;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.update-block {
+  margin-bottom: 1rem;
+}
+
+.update-field-label {
+  font-size: 13px;
+  font-weight: normal;
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+
+.update-field {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.editor_field {
+  margin-bottom: 1rem;
+}
+
+.wrapper-class {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.editor-class {
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.toolbar-class {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #f9f9f9;
+}
+
+.action-area {
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.text-qred {
+  color: #ff0000;
+}
+
+.bg-qblack {
+  background-color: #000;
+  color: #fff;
+}
+.quizform{
+  margin: 0 auto;
+  width: 50%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #fff;
+  
+
+}

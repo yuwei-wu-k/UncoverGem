@@ -1,0 +1,108 @@
+/* View */
+div.view-wrapper {
+}
+div.view-title {
+}
+div.view-block {
+}
+label.view-field-label {
+}
+div.view-field-wrapper {
+}
+
+/* Update */
+div.update-wrapper {
+}
+div.update-title {
+}
+div.update-block {
+}
+label.update-field-label {
+}
+input.update-field {
+}
+
+/* Obsolete dropdown menu */
+.nav ul.nav-wrapper > li {
+  padding: 20px 0 ;
+}
+.nav ul.nav-wrapper li .sub-menu {
+  transition: all 0.5s ease-in-out ;
+  opacity: 0 ;
+  visibility: hidden ;
+  pointer-events: auto ;
+}
+.nav ul.nav-wrapper li:hover .sub-menu {
+  opacity: 1 ;
+  visibility: visible ;
+  pointer-events: auto ;
+}
+
+/* Menu */
+div.menu-action {
+}
+
+/* Dropdown Menu */
+ul.dropdown-menu > li {
+  padding: 20px 0 ;
+}
+ul.dropdown-menu li .dropdown-menu-sub-menu {
+  transition: all 0.5s ease-in-out ;
+  opacity: 0 ;
+  visibility: hidden ;
+  pointer-events: auto ;
+}
+ul.dropdown-menu li:hover .dropdown-menu-sub-menu {
+  opacity: 1 ;
+  visibility: visible ;
+  pointer-events: auto ;
+}
+
+div.menu-action {
+}
+
+button.menu-action {
+    color: blue ;
+    font-size: 1rem ; /* 16px */
+    line-height: 1.5rem ; /* 24px */
+}
+
+.menu-action:hover {
+    cursor: pointer ;
+    text-decoration: underline ;
+}
+
+div.list-wrapper {
+}
+
+ul.list-wrapper {
+}
+
+li.list-item {
+}
+
+div.list-item-main {
+    cursor: pointer ;
+}
+
+div.list-item-image {
+}
+
+div.list-item-body {
+}
+
+div.list-item-action {
+    color: blue ;
+    font-size: 1rem ; /* 16px */
+    line-height: 1.5rem ; /* 24px */
+}
+
+.list-item-action:hover {
+    cursor: pointer ;
+    text-decoration: underline ;
+}
+
+.action-link {
+    color: blue ;
+    cursor: pointer ;
+}

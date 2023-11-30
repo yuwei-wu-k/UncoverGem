@@ -1,0 +1,108 @@
+.update-wrapper {
+  background-image: url('../../public/sun-tornado.svg');
+  border-radius: 0;
+}
+
+.update-title {
+  color: #FFFDD0;
+}
+.update-field{
+    width: 100%;
+   
+}
+
+.add-question-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 50%;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  min-width: 120px;
+  margin-right: 10px;
+}
+
+.quiz-label,
+.priority-input,
+.show-order-input,
+.conditional-input,
+.type-input,
+.choice-input {
+  width: 100%;
+}
+
+.long-description-input,
+.feedback-description-input {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.editor-container {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.choice-input {
+  margin-left: 10px;
+}
+
+.choice-input:nth-child(n) {
+  margin-top: 10px;
+}
+.Quiz_name{
+    display: flex;
+}
+.action_buttons{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+.editor-container{
+    border-radius: 15px;
+}
+label{
+    margin-top: 5px;
+}
+
+
+
+.add-question-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 60%; /* Adjust the width as needed */
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* ... (existing styles) */
+  
+  @media screen and (max-width: 768px) {
+    .add-question-container {
+      width: 90%; /* Adjust the width for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .add-question-container {
+      width: 100%; /* Adjust the width for even smaller screens */
+      padding: 1rem; /* Adjust padding for smaller screens */
+    }
+  }
+  
